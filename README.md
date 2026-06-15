@@ -41,12 +41,14 @@ npm run dev
  
 ---
  
-### 畫面 2 — 全站導覽列 `App.vue`
+### 畫面 2 — 全站導覽列 `App.vue` 線上購物 `/shop/list`
  
-![App.vue 導覽列](./2.png)
+![App.vue 導覽列](./11.png)
  
 根元件，包含 Header、`<RouterView />`、Footer。`v-if="authStore.isLoggedIn"` 動態切換登入 / 未登入區塊；`v-if="authStore.isAdmin"` 控制「商品管理」選單是否顯示。頁面載入時執行 `confetti()` 撒花特效。
- 
+
+![線上購物](./2.png)
+
 ---
  
 ### 畫面 3 — 商品資訊（Query String） `/shop/product?id=5`
