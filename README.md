@@ -33,11 +33,11 @@ npm run dev
 
 ## 🧭 實機執行畫面
  
-### 畫面 1 — 線上購物列表 `/shop/list`
+### 畫面 1 — 登入畫面 `/login`
  
-![線上購物列表](./1.png)
+![展示登入畫面](./1.png)
  
-商品卡片式總覽頁，支援**關鍵字搜尋**與**分類篩選**。路由以 `/shop` 巢狀路由設計，`meta: { requiresMember }` 搭配 `beforeEach` 守衛保護需登入頁面。
+路由以 `/shop` 巢狀路由設計，`meta: { requiresMember }` 搭配 `beforeEach` 守衛保護需登入頁面。
  
 ---
  
