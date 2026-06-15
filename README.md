@@ -49,6 +49,8 @@ npm run dev
 
 ![線上購物](./2.png)
 
+在 LoginView.vue 中`router.push({ name: 'shop-list' })` 控制登入成功後畫面跳轉到 `/shop/list`
+
 ---
  
 ### 畫面 3 — 商品資訊（Query String） `/shop/product?id=5`
